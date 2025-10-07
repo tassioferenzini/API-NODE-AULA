@@ -1,0 +1,22 @@
+0 -
+npm install OR npm i express mongoose dotenv joi http-errors cors helmet morgan
+npm i -D nodemon
+
+1 - docker run -d --name mongo -p 27017:27017 -v mongo_data:/data/db mongo:6
+
+2 - npm run dev || start
+
+Exemplos dados:
+
+'{
+    "nome": "Maria Silva",
+    "email": "maria.silva@exemplo.com",
+    "matricula": "2025A0001",
+    "curso": "Economia",
+    "dataNascimento": "2001-04-15",
+    "ativo": true
+  }'
+
+  URL: http://localhost:3000/api/alunos
+
+  
